@@ -20,14 +20,13 @@
 
 **Frontend**
 - HTML, CSS, JavaScript
-- React, TailwindCSS
+- Next.js, Angular, TailwindCSS
 
 **Backend**
-- Node.js, Express
-- Go (learning)
-
+- Go, Node.js, Java, Python
+  
 **Database**
-- MongoDB, MySQL
+- PostgreSQL, MySQL
 
 **Security Tools**
 - Burp Suite, Nmap, Wireshark
@@ -41,7 +40,6 @@
 - 🔹 Full-stack web apps (auth, APIs, dashboards)
 - 🔹 Security tools (scanners, automation scripts)
 - 🔹 CTF writeups & labs
-- 🔹 Custom mini frameworks
 
 ---
 
