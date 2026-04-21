@@ -1,75 +1,81 @@
-# 👨‍💻 Cybersecurity & Full-Stack Developer
+<!-- HEADER -->
+<h1 align="center">👨‍💻 Full-Stack Developer | Cybersecurity Enthusiast</h1>
 
-Welcome to my GitHub profile!
-
-I’m a developer passionate about building secure, scalable, and modern web applications while also exploring cybersecurity, penetration testing, and system security.
-
----
-
-## 🚀 About Me
-
-- 🔐 Cybersecurity enthusiast (pentesting, web security, ethical hacking)
-- 🌐 Full-Stack developer (frontend + backend)
-- 🧠 Always learning low-level concepts and system internals
-- 🛠️ Love building tools, automation scripts, and security labs
+<p align="center">
+  Building secure systems & scalable web applications 🛡️⚙️
+</p>
 
 ---
 
-## 💻 Tech Stack
+## ⚡ About Me
 
-### Frontend
-- HTML / CSS / JavaScript
-- React
-- TailwindCSS
-
-### Backend
-- Node.js
-- Express
-- Go (learning / experimenting)
-
-### Databases
-- MongoDB
-- MySQL
-
-### Cybersecurity
-- Linux (Kali, Debian)
-- Burp Suite
-- Nmap
-- Wireshark
-- Basic reverse engineering
+- 🔐 Passionate about Cybersecurity (Web Pentesting, Bug Bounty)
+- 🌐 Full-Stack Developer (Frontend + Backend)
+- 🧠 Focused on system internals & low-level understanding
+- 🛠️ I build tools, automate tasks, and break/fix things
 
 ---
 
-## 📂 Projects
+## 🧰 Tech Stack
 
-- 🕸️ Web apps (full-stack projects with authentication & APIs)
-- 🔍 Security tools (scanners, recon scripts, automation tools)
-- 🧪 CTF challenges & labs writeups
-- ⚙️ Custom frameworks / experiments
+**Frontend**
+- HTML, CSS, JavaScript
+- React, TailwindCSS
+
+**Backend**
+- Node.js, Express
+- Go (learning)
+
+**Database**
+- MongoDB, MySQL
+
+**Security Tools**
+- Burp Suite, Nmap, Wireshark
+- Linux (Kali/Debian)
+- Recon & scripting tools
 
 ---
 
-## 🎯 Current Focus
+## 🚀 Projects
 
-- Improving web application security (OWASP Top 10)
-- Building full-stack production-ready apps
-- Learning deeper network & system security
-- Participating in CTFs & bug bounty platforms
+- 🔹 Full-stack web apps (auth, APIs, dashboards)
+- 🔹 Security tools (scanners, automation scripts)
+- 🔹 CTF writeups & labs
+- 🔹 Custom mini frameworks
 
 ---
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical" />
+</p>
+
+---
+
+## 📈 Contribution Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=react-dark" />
+</p>
+
+---
+
+## 🧠 Current Focus
+
+- Web App Security (OWASP Top 10)
+- Bug Bounty & CTFs
+- Scalable backend systems
+- Linux + networking deep dive
 
 ---
 
 ## 📫 Contact
 
-- GitHub: https://github.com/YOUR_USERNAME
-- Email: your.email@example.com
-- LinkedIn: https://linkedin.com/in/YOUR_PROFILE
+- GitHub: [GitHub](https://github.com/Ryuk0x01)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/soufiane-hachimi/)
+- Email: sohachimi.dev@gmail.com
 
 ---
 
-> “Security is not a product, but a process.”
+> “Break. Learn. Build. Repeat.”
