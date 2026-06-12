@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 580" width="860" height="580" role="img" aria-label="Kali Linux terminal for Ryuk0x01">
   <title>Kali Linux – Ryuk0x01</title>
   <desc>Clean Kali zsh terminal with whoami, id, sudo -l and priv table</desc>
@@ -14,7 +15,8 @@
   <circle cx="50" cy="14" r="5" fill="#28c840"/>
   <text x="430" y="19" text-anchor="middle" class="ui" fill="#3b4261">ryuk@kali: ~  —  zsh</text>
 
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.1s" dur="0.2s" fill="freeze"/>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.1s" dur="0.2s" fill="freeze"/>
     <text x="20" y="58"  class="m" fill="#e06c75">    ##  ##</text>
     <text x="20" y="72"  class="m" fill="#e06c75">  ##      ##</text>
     <text x="20" y="86"  class="m" fill="#e06c75"> ##  ####  ##</text>
@@ -63,7 +65,8 @@
   </text>
   <text x="20" y="254" class="m" opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="2.5s" dur="0.1s" fill="freeze"/>
-    <tspan fill="#abb2bf">uid=</tspan><tspan fill="#e5c07b">1000</tspan><tspan fill="#abb2bf">(</tspan><tspan fill="#c678dd">ryuk</tspan><tspan fill="#abb2bf">) gid=</tspan><tspan fill="#e5c07b">1000</tspan><tspan fill="#abb2bf"> groups=</tspan><tspan fill="#e5c07b">1000</tspan><tspan fill="#abb2bf">
+    <tspan fill="#abb2bf">uid=</tspan><tspan fill="#e5c07b">1000</tspan><tspan fill="#abb2bf">(</tspan><tspan fill="#c678dd">ryuk</tspan><tspan fill="#abb2bf">) gid=</tspan><tspan fill="#e5c07b">1000</tspan><tspan fill="#abb2bf"> groups=</tspan><tspan fill="#e5c07b">1000</tspan><tspan fill="#abb2bf">,</tspan><tspan fill="#e06c75">sudo</tspan><tspan fill="#abb2bf">,</tspan><tspan fill="#61afef">kali</tspan><tspan fill="#abb2bf">,</tspan><tspan fill="#56b6c2">netdev</tspan>
+  </text>
 
   <text x="20" y="272" class="m" opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="2.8s" dur="0.1s" fill="freeze"/>
