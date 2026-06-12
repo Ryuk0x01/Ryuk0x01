@@ -5,6 +5,8 @@
   Building secure systems & scalable web applications 🛡️⚙️
 </p>
 
+![terminal](https://raw.githubusercontent.com/Ryuk0x01/Ryuk0x01/main/terminal.svg)
+
 ---
 
 ## ⚡ About Me
