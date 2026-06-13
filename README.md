@@ -1,71 +1,22 @@
-<!-- HEADER -->
-<h1 align="center">👨‍💻 Full-Stack Developer | Cybersecurity Enthusiast</h1>
-
 <p align="center">
-  Building secure systems & scalable web applications 🛡️⚙️
+  <img src="./terminal.svg" alt="Ryuk" />
 </p>
 
-![terminal](https://raw.githubusercontent.com/Ryuk0x01/Ryuk0x01/main/terminal.svg)
+<p align="center">
+  <sub><i>Offensive Security Researcher &nbsp;·&nbsp; Bug Bounty Hunter &nbsp;·&nbsp; Post-Exploitation</i></sub>
+</p>
 
----
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=kali,linux,powershell,bash,python,go,java,rust,nodejs,git,vscode&perline=12" />
+</p>
 
-## ⚡ About Me
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Ryuk0x01&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&hide=contribs" alt="stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ryuk0X01&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="top languages" />
+</p>
 
-- 🔐 Passionate about Cybersecurity (Web Pentesting, Bug Bounty)
-- 🌐 Full-Stack Developer (Frontend + Backend)
-- 🧠 Focused on system internals & low-level understanding
-- 🛠️ I build tools, automate tasks, and break/fix things
-
----
-
-## 🧰 Tech Stack
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-  
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-ff6f00?style=for-the-badge)
-![Nmap](https://img.shields.io/badge/Nmap-00457C?style=for-the-badge)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
----
-
-## 🚀 Projects
-
-- 🔹 Full-stack web apps (auth, APIs, dashboards)
-- 🔹 Security tools (scanners, automation scripts)
-- 🔹 CTF writeups & labs
-
----
-
-## 🧠 Current Focus
-
-- Web App Security (OWASP Top 10)
-- Bug Bounty & CTFs
-- Scalable backend systems
-- Linux + networking deep dive
-
----
-
-## 📫 Contact
-
-- GitHub: [GitHub](https://github.com/Ryuk0x01)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/soufiane-hachimi/)
-- Email: sohachimi.dev@gmail.com
-
----
-
-> “Break. Learn. Build. Repeat.”
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Ryuk0X01&label=PROFILE+VIEWS&color=58A6FF&style=for-the-badge" />
+  <img src="https://img.shields.io/github/followers/Ryuk0X01?style=for-the-badge&color=58A6FF&labelColor=0C0C0C&logo=github" />
+  <img src="https://img.shields.io/github/stars/Ryuk0x0&?style=for-the-badge&color=58A6FF&labelColor=0C0C0C&logo=github" />
+</p>
