@@ -1,174 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 580" width="860" height="580" role="img" aria-label="Kali Linux terminal for Ryuk0x01">
-  <title>Kali Linux – Ryuk0x01</title>
-  <desc>Clean Kali zsh terminal with whoami, id, sudo -l and priv table</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520">
   <style>
-    .m { font-family: 'Courier New',monospace; font-size: 13px; }
-    .ui { font-family: 'Segoe UI',Arial,sans-serif; font-size: 11px; }
+    .t { font-family: 'JetBrains Mono','Fira Code',monospace; font-size: 13px; }
+    .dim { fill:#6b7280; }
+    .green { fill:#00ff99; }
+    .cyan { fill:#00e5ff; }
+    .pink { fill:#ff3df2; }
+    .bg { fill:#05060a; }
   </style>
 
-  <rect width="860" height="580" rx="10" fill="#0d0f18"/>
-  <rect width="860" height="28" rx="10" fill="#12141f"/>
-  <rect y="14" width="860" height="14" fill="#12141f"/>
-  <circle cx="16" cy="14" r="5" fill="#ff5f57"/>
-  <circle cx="33" cy="14" r="5" fill="#febc2e"/>
-  <circle cx="50" cy="14" r="5" fill="#28c840"/>
-  <text x="430" y="19" text-anchor="middle" class="ui" fill="#3b4261">ryuk@kali: ~  —  zsh</text>
+  <!-- Background -->
+  <rect width="900" height="520" rx="12" class="bg"/>
 
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="0.1s" dur="0.2s" fill="freeze"/>
-    <text x="20" y="58"  class="m" fill="#e06c75">    ##  ##</text>
-    <text x="20" y="72"  class="m" fill="#e06c75">  ##      ##</text>
-    <text x="20" y="86"  class="m" fill="#e06c75"> ##  ####  ##</text>
-    <text x="20" y="100" class="m" fill="#e06c75">  ##      ##</text>
-    <text x="20" y="114" class="m" fill="#e06c75">    ######</text>
-    <text x="180" y="58"  class="m"><tspan fill="#e06c75">ryuk</tspan><tspan fill="#abb2bf">@</tspan><tspan fill="#e06c75">kali</tspan></text>
-    <text x="180" y="72"  class="m" fill="#2a2f45">────────────────────────────</text>
-    <text x="180" y="86"  class="m"><tspan fill="#61afef">OS     </tspan><tspan fill="#3b4261">│ </tspan><tspan fill="#abb2bf">Kali GNU/Linux Rolling</tspan></text>
-    <text x="180" y="100" class="m"><tspan fill="#61afef">Kernel </tspan><tspan fill="#3b4261">│ </tspan><tspan fill="#abb2bf">6.6.9-amd64</tspan></text>
-    <text x="180" y="114" class="m"><tspan fill="#61afef">Shell  </tspan><tspan fill="#3b4261">│ </tspan><tspan fill="#abb2bf">zsh 5.9</tspan></text>
-    <text x="180" y="128" class="m"><tspan fill="#61afef">GitHub </tspan><tspan fill="#3b4261">│ </tspan><tspan fill="#98c379">github.com/Ryuk0x01</tspan></text>
-    <rect x="180" y="136" width="12" height="10" rx="2" fill="#e06c75"/>
-    <rect x="196" y="136" width="12" height="10" rx="2" fill="#e5c07b"/>
-    <rect x="212" y="136" width="12" height="10" rx="2" fill="#98c379"/>
-    <rect x="228" y="136" width="12" height="10" rx="2" fill="#61afef"/>
-    <rect x="244" y="136" width="12" height="10" rx="2" fill="#c678dd"/>
-    <rect x="260" y="136" width="12" height="10" rx="2" fill="#56b6c2"/>
-    <rect x="276" y="136" width="12" height="10" rx="2" fill="#abb2bf"/>
-  </g>
+  <!-- Neon glow bar -->
+  <rect width="900" height="40" rx="12" fill="#0b1020"/>
+  <circle cx="20" cy="20" r="5" fill="#ff5f57"/>
+  <circle cx="40" cy="20" r="5" fill="#febc2e"/>
+  <circle cx="60" cy="20" r="5" fill="#28c840"/>
+  <text x="450" y="25" text-anchor="middle" class="t dim"> TERMINAL ~ ryuk system</text>
 
-  <text x="20" y="155" class="m" fill="#1e2235" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="0.9s" dur="0.1s" fill="freeze"/>
-    ────────────────────────────────────────────────────────────────────────────────────────────
+  <!-- scanline effect -->
+  <rect width="900" height="520" fill="url(#scan)" opacity="0.05"/>
+
+  <defs>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00ff99"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Boot text -->
+  <text x="30" y="90" class="t green">
+    > booting cyber system...
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" fill="freeze"/>
   </text>
 
-  <text x="20" y="172" class="m" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.1s" fill="freeze"/>
-    <tspan fill="#98c379">┌──(</tspan><tspan fill="#c678dd">ryuk</tspan><tspan fill="#98c379">㉿</tspan><tspan fill="#61afef">kali</tspan><tspan fill="#98c379">)-[</tspan><tspan fill="#abb2bf">~</tspan><tspan fill="#98c379">]</tspan>
-  </text>
-  <text x="20" y="188" class="m" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.1s" fill="freeze"/>
-    <tspan fill="#98c379">└─</tspan><tspan fill="#e06c75">$ </tspan><tspan fill="#abb2bf">whoami</tspan>
-  </text>
-  <text x="20" y="204" class="m" fill="#98c379" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="1.7s" dur="0.1s" fill="freeze"/>
-    Ryuk0x01
+  <text x="30" y="120" class="t dim" opacity="0">
+    > loading modules: web / security / exploit-db
+    <animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.4s" fill="freeze"/>
   </text>
 
-  <text x="20" y="222" class="m" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="1.9s" dur="0.1s" fill="freeze"/>
-    <tspan fill="#98c379">┌──(</tspan><tspan fill="#c678dd">ryuk</tspan><tspan fill="#98c379">㉿</tspan><tspan fill="#61afef">kali</tspan><tspan fill="#98c379">)-[</tspan><tspan fill="#abb2bf">~</tspan><tspan fill="#98c379">]</tspan>
-  </text>
-  <text x="20" y="238" class="m" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="1.9s" dur="0.1s" fill="freeze"/>
-    <tspan fill="#98c379">└─</tspan><tspan fill="#e06c75">$ </tspan><tspan fill="#abb2bf">id</tspan>
-  </text>
-  <text x="20" y="254" class="m" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="2.5s" dur="0.1s" fill="freeze"/>
-    <tspan fill="#abb2bf">uid=</tspan><tspan fill="#e5c07b">1000</tspan><tspan fill="#abb2bf">(</tspan><tspan fill="#c678dd">ryuk</tspan><tspan fill="#abb2bf">) gid=</tspan><tspan fill="#e5c07b">1000</tspan><tspan fill="#abb2bf"> groups=</tspan><tspan fill="#e5c07b">1000</tspan><tspan fill="#abb2bf">,</tspan><tspan fill="#e06c75">sudo</tspan><tspan fill="#abb2bf">,</tspan><tspan fill="#61afef">kali</tspan><tspan fill="#abb2bf">,</tspan><tspan fill="#56b6c2">netdev</tspan>
+  <text x="30" y="150" class="t dim" opacity="0">
+    > initializing hacker environment...
+    <animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.4s" fill="freeze"/>
   </text>
 
-  <text x="20" y="272" class="m" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="2.8s" dur="0.1s" fill="freeze"/>
-    <tspan fill="#98c379">┌──(</tspan><tspan fill="#c678dd">ryuk</tspan><tspan fill="#98c379">㉿</tspan><tspan fill="#61afef">kali</tspan><tspan fill="#98c379">)-[</tspan><tspan fill="#abb2bf">~</tspan><tspan fill="#98c379">]</tspan>
-  </text>
-  <text x="20" y="288" class="m" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="2.8s" dur="0.1s" fill="freeze"/>
-    <tspan fill="#98c379">└─</tspan><tspan fill="#e06c75">$ </tspan><tspan fill="#e5c07b">sudo</tspan><tspan fill="#abb2bf"> -l</tspan>
+  <text x="30" y="190" class="t green" opacity="0">
+    > system ready ✔
+    <animate attributeName="opacity" from="0" to="1" begin="1.8s" dur="0.4s" fill="freeze"/>
   </text>
 
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="3.5s" dur="0.1s" fill="freeze"/>
-    <text x="20" y="306" class="m" fill="#3b4261">Matching Defaults entries for ryuk on kali:</text>
-    <text x="20" y="320" class="m">
-      <tspan fill="#3b4261">    env_reset, mail_badpass, secure_path=</tspan><tspan fill="#98c379">/usr/local/sbin:/usr/local/bin</tspan>
-    </text>
-  </g>
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="3.75s" dur="0.1s" fill="freeze"/>
-    <text x="20" y="338" class="m" fill="#3b4261">User ryuk may run the following commands on kali:</text>
-    <text x="20" y="354" class="m">
-      <tspan fill="#3b4261">    (</tspan><tspan fill="#e06c75">ALL</tspan><tspan fill="#3b4261"> : </tspan><tspan fill="#e06c75">ALL</tspan><tspan fill="#3b4261">) </tspan><tspan fill="#e5c07b">NOPASSWD</tspan><tspan fill="#3b4261">: </tspan><tspan fill="#98c379">/usr/bin/python3</tspan><tspan fill="#3b4261">, </tspan><tspan fill="#98c379">/usr/bin/nmap</tspan><tspan fill="#3b4261">, </tspan><tspan fill="#98c379">/bin/bash</tspan>
-    </text>
-  </g>
-
-  <text x="20" y="370" class="m" fill="#1e2235" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="4.2s" dur="0.1s" fill="freeze"/>
-    ────────────────────────────────────────────────────────────────────────────────────────────
+  <!-- Prompt -->
+  <text x="30" y="240" class="t cyan" opacity="0">
+    cyber@ryuk:~$
+    <animate attributeName="opacity" from="0" to="1" begin="2.2s" dur="0.3s" fill="freeze"/>
   </text>
 
-  <rect x="20" y="378" width="820" height="22" rx="3" fill="#12141f" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="4.3s" dur="0.1s" fill="freeze"/>
+  <text x="160" y="240" class="t pink" opacity="0">
+    whoami
+    <animate attributeName="opacity" from="0" to="1" begin="2.7s" dur="0.3s" fill="freeze"/>
+  </text>
+
+  <text x="30" y="280" class="t dim" opacity="0">
+    Ryuk0x01 | Cyber Security | Bug Bounty Hunter | Developer
+    <animate attributeName="opacity" from="0" to="1" begin="3.3s" dur="0.5s" fill="freeze"/>
+  </text>
+
+  <!-- skills -->
+  <text x="30" y="330" class="t cyan" opacity="0">
+    > skills loaded:
+    <animate attributeName="opacity" from="0" to="1" begin="4s" dur="0.3s" fill="freeze"/>
+  </text>
+
+  <text x="30" y="360" class="t dim" opacity="0">
+    Python • JavaScript • Go • Bash • Linux
+    <animate attributeName="opacity" from="0" to="1" begin="4.4s" dur="0.4s" fill="freeze"/>
+  </text>
+
+  <text x="30" y="385" class="t dim" opacity="0">
+    Web Security • API Testing • CTF • Recon
+    <animate attributeName="opacity" from="0" to="1" begin="4.8s" dur="0.4s" fill="freeze"/>
+  </text>
+
+  <!-- Matrix cursor -->
+  <rect x="30" y="420" width="8" height="14" fill="#00ff99">
+    <animate attributeName="opacity" values="0;1;0" dur="0.9s" repeatCount="indefinite"/>
   </rect>
-  <text x="28" y="393" class="m" fill="#61afef" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="4.3s" dur="0.1s" fill="freeze"/>
-    PRIVILEGE TABLE  ──  Ryuk0x01  ──  kali
-  </text>
-
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="4.5s" dur="0.1s" fill="freeze"/>
-    <text x="28"  y="415" class="m" fill="#3b4261">PRIVILEGE</text>
-    <text x="290" y="415" class="m" fill="#3b4261">DESCRIPTION</text>
-    <text x="680" y="415" class="m" fill="#3b4261">STATE</text>
-    <line x1="20" y1="420" x2="840" y2="420" stroke="#1e2235" stroke-width="1"/>
-  </g>
-
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="4.65s" dur="0.1s" fill="freeze"/>
-    <text x="28"  y="436" class="m" fill="#c678dd">SeWebHackPriv</text>
-    <text x="290" y="436" class="m" fill="#abb2bf">XSS, SQLi, RCE, SSRF, LFI</text>
-    <text x="680" y="436" class="m" fill="#98c379">ENABLED</text>
-  </g>
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="4.8s" dur="0.1s" fill="freeze"/>
-    <text x="28"  y="452" class="m" fill="#c678dd">SeBinaryExplPriv</text>
-    <text x="290" y="452" class="m" fill="#abb2bf">BOF, ROP, pwntools, shellcode</text>
-    <text x="680" y="452" class="m" fill="#98c379">ENABLED</text>
-  </g>
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="4.95s" dur="0.1s" fill="freeze"/>
-    <text x="28"  y="468" class="m" fill="#c678dd">SeNetworkReconPriv</text>
-    <text x="290" y="468" class="m" fill="#abb2bf">nmap, tcpdump, wireshark, OSINT</text>
-    <text x="680" y="468" class="m" fill="#98c379">ENABLED</text>
-  </g>
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="5.1s" dur="0.1s" fill="freeze"/>
-    <text x="28"  y="484" class="m" fill="#c678dd">SeScriptingPriv</text>
-    <text x="290" y="484" class="m" fill="#abb2bf">Python3, Bash, C, Go, Node.js</text>
-    <text x="680" y="484" class="m" fill="#98c379">ENABLED</text>
-  </g>
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="5.25s" dur="0.1s" fill="freeze"/>
-    <text x="28"  y="500" class="m" fill="#c678dd">SeSudoNoPasswdPriv</text>
-    <text x="290" y="500" class="m" fill="#abb2bf">NOPASSWD: python3, nmap, bash</text>
-    <text x="680" y="500" class="m" fill="#e06c75">ROOT</text>
-  </g>
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="5.4s" dur="0.1s" fill="freeze"/>
-    <text x="28"  y="516" class="m" fill="#c678dd">SeGithubPriv</text>
-    <text x="290" y="516" class="m" fill="#abb2bf">github.com/Ryuk0x01</text>
-    <text x="680" y="516" class="m" fill="#98c379">ENABLED</text>
-  </g>
-
-  <line x1="20" y1="524" x2="840" y2="524" stroke="#1e2235" stroke-width="1" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="5.5s" dur="0.1s" fill="freeze"/>
-  </line>
-  <text x="20" y="538" class="m" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="5.5s" dur="0.1s" fill="freeze"/>
-    <tspan fill="#3b4261">6 privs loaded  ·  </tspan><tspan fill="#98c379">all active</tspan><tspan fill="#3b4261">  ·  sudo NOPASSWD: </tspan><tspan fill="#e06c75">python3 nmap bash</tspan><tspan fill="#3b4261">  ·  user: </tspan><tspan fill="#e5c07b">Ryuk0x01</tspan>
-  </text>
-
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="5.7s" dur="0.1s" fill="freeze"/>
-    <text x="20" y="558" class="m">
-      <tspan fill="#98c379">┌──(</tspan><tspan fill="#c678dd">ryuk</tspan><tspan fill="#98c379">㉿</tspan><tspan fill="#61afef">kali</tspan><tspan fill="#98c379">)-[</tspan><tspan fill="#abb2bf">~</tspan><tspan fill="#98c379">]</tspan>
-    </text>
-    <text x="20" y="574" class="m">
-      <tspan fill="#98c379">└─</tspan><tspan fill="#e06c75">$ </tspan>
-    </text>
-    <rect x="55" y="562" width="8" height="13" fill="#abb2bf">
-      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-
 </svg>
