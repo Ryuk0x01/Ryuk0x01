@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <sub><i>Offensive Security Researcher &nbsp;·&nbsp; Bug Bounty Hunter &nbsp;·&nbsp; Post-Exploitation</i></sub>
+  <sub><i>Offensive Security Researcher &nbsp;·&nbsp; Bug Bounty Hunter &nbsp;·&nbsp; Web Security</i></sub>
 </p>
 
 <p align="center">
